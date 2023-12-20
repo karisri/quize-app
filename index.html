@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="header">The Quiz App</div>
+    <div id="container">
+        <div id="body">
+            <h2 id="Q1"></h2>
+           <div id="div1"> <input name="q1" id="op1" type="radio" value="Harry"><label id="q1l1" for="op1"></label></br>
+            <input name="q1" type="radio" id="op2" value="Nagini"><label for="op2" id="q1l2"></label ></br>
+            <input name="q1" type="radio" id="op3" value="Helga's Diadem"><label id="q1l3"for="op3"></label></br>
+            <input name="q1" type="radio" id="op4" value="Tom Riddle's Diary"><label id="q1l4" for="op4"></label></div>
+            <hr>
+            <h2  id="Q2"></h2>
+           <div id="div2"> <input name="q2" type="radio" value="Grawp" id="q2op1"><label id="q2l1" for="q2op1"></label></br>
+            <input name="q2" type="radio" value="Fluffy" id="q2op2"><label id="q2l2" for="q2op2"></label></br>
+            <input name="q2" type="radio" value="Aragog" id="q2op3"><label id="q2l3" for="q2op3"></label></br>
+            <input name="q2" type="radio" value="Noberta" id="q2op4"><label id="q2l4" for="q2op4"></label></div>
+            <hr>
+            <h2  id="Q3"></h2>
+            <div id=div3><input name="q3" type="radio" value="Potions" id="q3op1"><label id="q3l1" for="q3op1"></label></br>
+            <input name="q3" type="radio" value="Charms" id="q3op2"><label  id="q3l2" for="q3op2"></label></br>
+            <input name="q3" type="radio" value="Defence Against Drak Arts"  id="q3op3"><label  id="q3l3" for="q3op3"></label></br>
+            <input name="q3" type="radio" value="Transfiguration" id="q3op4"><label  id="q3l4" for="q3op4"></label></div>
+            <hr>
+            <h2  id="Q4"></h2>
+            <div id="div4"><input name="q4" type="radio" value="Griffinder" id="q4op1"><label  id="q4l1" for="q4op1"></label></br>
+            <input name="q4" type="radio" value="Slytherin" id="q4op2"><label id="q4l2"for="q4op2"></label></br>
+            <input name="q4" type="radio" value="Ravenclaw" id="q4op3"><label id="q4l3"for="q4op3"></label></br>
+            <input name="q4" type="radio" value="Hufflepuff" id="q4op4"><label id="q4l4" for="q4op4"></label></div>
+            <hr>
+            <h2  id="Q5"></h2>
+            <div id="div5"><input name="q5" type="radio" value="Astronomy" id="q5op1"><label id="q5l1" for="q5op1"></label></br>
+            <input name="q5" type="radio" value="Herbology" id="q5op2"><label id="q5l2" for="q5op2"></label></br>
+            <input name="q5" type="radio" value="Charms" id="q5op3"><label id="q5l3" for="q5op3"></label></br>
+            <input name="q5" type="radio" value="Muggle Studies" id="q5op4" ><label id="q5l4" for="q5op"></label></div>
+            <hr></br>
+            <div id="btn"> <button id="submit" type="submit">submit</button></div>
+        </div>
+        <div id="result_container">
+            <h3>score:</h3>
+            <div id="result">
+                <div id="score">0</div>
+                <div id="toatal_marks">/5</div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
